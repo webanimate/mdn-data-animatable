@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/webanimate/mdn-data-animatable/compare/v1.0.1...v1.1.0) (2020-05-24)
+
+### Features
+
+- add list of non-animatable properties needed for syntax checking ([0b4787e](https://github.com/webanimate/mdn-data-animatable/commit/0b4787e6032915424ea5d7772aec237ac84bacc0))
+
 ## [1.0.1](https://github.com/webanimate/mdn-data-animatable/compare/v1.0.0...v1.0.1) (2020-05-24)
 
 ### Bug Fixes
