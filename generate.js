@@ -48,8 +48,17 @@ const processFiles = () => {
     }
   })
 
+  const nonAnimatablePropertiesArray = []
   Object.keys(nonAnimatableProperties).forEach((key) => {
     mdnAnimatableProperties[key] = { syntax: mdnProperties[key]['syntax'] }
+    nonAnimatablePropertiesArray.push(key)
+  })
+  ;[path.join(__dirname, 'css', 'non-animatable.json')].forEach((value) => {
+    const stream = fs.createWriteStream(value)
+    stream.once('open', () => {
+      stream.write(`${JSON.stringify(nonAnimatablePropertiesArray)}\n`)
+      stream.end()
+    })
   })
   ;[path.join(__dirname, 'css', 'at-rules.json')].forEach((value) => {
     if (fs.existsSync(value)) {
