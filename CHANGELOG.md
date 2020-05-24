@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.0...v1.1.1) (2020-05-24)
+
+### Bug Fixes
+
+- fix main `index.js` ([7a89cfa](https://github.com/webanimate/mdn-data-animatable/commit/7a89cfa0362dfeea995d26e2fc746d2c2e5aba05))
+
 # [1.1.0](https://github.com/webanimate/mdn-data-animatable/compare/v1.0.1...v1.1.0) (2020-05-24)
 
 ### Features
