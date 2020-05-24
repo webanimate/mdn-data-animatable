@@ -126,3 +126,12 @@ fs.readdirSync(mdnDataDir).forEach((file) => {
       .catch((err) => console.error(file, err))
   }
 })
+;['index.js'].forEach((value) => {
+  if (fs.existsSync(path.join(mdnDataDir, value))) {
+    fs.copy(path.join(mdnDataDir, value), path.join(__dirname, value))
+      .then(() => {
+        console.log(value + ' copied.')
+      })
+      .catch((err) => console.error(value, err))
+  }
+})

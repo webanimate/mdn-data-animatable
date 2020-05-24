@@ -1,8 +1,5 @@
 module.exports = {
-  atRules: require('./at-rules'),
-  selectors: require('./selectors'),
-  types: require('./types'),
-  properties: require('./properties'),
-  syntaxes: require('./syntaxes'),
-  units: require('./units'),
+  api: require('./api'),
+  css: require('./css'),
+  l10n: require('./l10n'),
 }
