@@ -1,0 +1,72 @@
+{
+  "name": "mdn-data-animatable",
+  "version": "1.0.0",
+  "description": "Fork of mdn-data with all but animatable CSS properties removed",
+  "main": "index.js",
+  "author": "Web Animate <60752454+webanimate@users.noreply.github.com>",
+  "license": "CC0-1.0",
+  "private": false,
+  "homepage": "https://github.com/webanimate/mdn-data-animatable#readme",
+  "unpkg": "dist/animatable.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webanimate/mdn-data-animatable.git"
+  },
+  "files": [
+    "api/*.json",
+    "css/*.json",
+    "l10n/*.json"
+  ],
+  "scripts": {
+    "gen": "node generate.js",
+    "fix": "yarn gen && yarn fix:eslint && yarn fix:prettier",
+    "fix:eslint": "eslint --fix \"**/*.*\"",
+    "fix:prettier": "prettier --write \"**/*.*\"",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint:eslint": "eslint \"**/*.*\"",
+    "lint:prettier": "prettier --check \"**/*.*\"",
+    "up": "yarn upgrade-interactive && yarn outdated"
+  },
+  "dependencies": {
+    "mdn-data": "^2.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-json": "^2.1.1",
+    "fs-extra": "^9.0.0",
+    "prettier": "^2.0.5"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "json"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:json/recommended",
+      "prettier"
+    ]
+  },
+  "prettier": {
+    "printWidth": 280,
+    "semi": false,
+    "singleQuote": true
+  },
+  "keywords": [
+    "data",
+    "mdn",
+    "mozilla",
+    "animatable",
+    "properties",
+    "css"
+  ]
+}
