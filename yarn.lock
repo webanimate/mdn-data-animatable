@@ -401,10 +401,10 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
 
-fs-extra@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.0.0.tgz#b6afc31036e247b2466dc99c29ae797d5d4580a3"
-  integrity sha512-pmEYSk3vYsG/bF651KPUXZ+hvjpgWYw/Gc7W9NFUe3ZVLczKKWIij3IKpOrQcdw4TILtibFslZ0UmR8Vvzig4g==
+fs-extra@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.0.1.tgz#910da0062437ba4c39fedd863f1675ccfefcb9fc"
+  integrity sha512-h2iAoN838FqAFJY2/qVpzFXy+EBxfVE220PalAqQLDVsFOHLJrZvut5puAbCdNv6WJk+B8ihI+k0c7JK5erwqQ==
   dependencies:
     at-least-node "^1.0.0"
     graceful-fs "^4.2.0"
@@ -601,10 +601,10 @@ lodash@^4.17.14, lodash@^4.17.15:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
-mdn-data@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.8.tgz#b5b1b8b9dc76abb5261bf2b8c495a0b4565af5c6"
-  integrity sha512-2gcTclvIaw9K/D3+HeX2YrSmzJYvOL7CJCGTTrHlnzQ0N4KQkB/sgRwHArP7JzlL0feUwCZQ1C0yCO/us/dSdw==
+mdn-data@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.9.tgz#7bf9378aff611b4e853e86edf5f3864568f45133"
+  integrity sha512-VMhGyDiXLxVp5XuGdtf04fIEZtcvLvlB+kAIbxLAjfAYgvGTIeLNxa9ZpIriHWB1SkG7q02hrnTt4yzZH+7gyA==
 
 mimic-fn@^2.1.0:
   version "2.1.0"
