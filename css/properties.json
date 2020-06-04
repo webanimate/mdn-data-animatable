@@ -174,7 +174,7 @@
   "text-emphasis-color": { "syntax": "<color>" },
   "text-indent": { "syntax": "<length-percentage> && hanging? && each-line?" },
   "text-shadow": { "syntax": "none | <shadow-t>#" },
-  "text-underline-offset": { "syntax": "auto | from-font | <length> | <percentage> " },
+  "text-underline-offset": { "syntax": "auto | <length> | <percentage> " },
   "top": { "syntax": "<length> | <percentage> | auto" },
   "transform": { "syntax": "none | <transform-list>" },
   "transform-origin": { "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?" },
