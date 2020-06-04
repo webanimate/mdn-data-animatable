@@ -17,6 +17,7 @@
     "l10n/*.json"
   ],
   "scripts": {
+    "c": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "gen": "node generate.js",
     "fix": "yarn gen && yarn fix:eslint && yarn fix:prettier",
     "fix:eslint": "eslint --fix \"**/*.*\"",
