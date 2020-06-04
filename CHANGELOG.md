@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.1...v1.1.2) (2020-06-04)
+
+### Bug Fixes
+
+- remove from-font value from text-underline-offset ([12ec395](https://github.com/webanimate/mdn-data-animatable/commit/12ec395a557722509bb5ee1bf666f08c48a0165d))
+
 ## [1.1.1](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.0...v1.1.1) (2020-05-24)
 
 ### Bug Fixes
