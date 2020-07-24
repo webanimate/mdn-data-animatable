@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-json": "^2.1.2",
     "fs-extra": "^9.0.1",
     "mdn-data": "^2.0.10",
     "prettier": "^2.0.5"
