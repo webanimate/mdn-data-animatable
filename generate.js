@@ -27,7 +27,7 @@ const processFiles = () => {
     if (Array.isArray(additionalMatches)) {
       additionalMatches.forEach((ke) => {
         const prop = ke.slice(2, -2)
-        if (mdnProperties[prop].animationType === 'discrete') {
+        if (['discrete', 'notAnimatable'].includes(mdnProperties[prop].animationType)) {
           if (nonAnimatableProperties[prop] !== true) {
             nonAnimatableProperties[prop] = true
             getMatches(prop)
@@ -40,7 +40,7 @@ const processFiles = () => {
 
   // Filter out all properties except animatable
   Object.keys(mdnProperties).forEach((key) => {
-    if (key.charAt(0) !== '-' && mdnProperties[key].animationType !== 'discrete') {
+    if (key.charAt(0) !== '-' && !['discrete', 'notAnimatable'].includes(mdnProperties[key].animationType)) {
       mdnAnimatableProperties[key] = { syntax: mdnProperties[key]['syntax'] }
       // Filter out all syntaxes except used in animatable properties
       getNonAnimatableProperties(key)
