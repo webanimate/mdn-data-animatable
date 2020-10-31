@@ -661,6 +661,10 @@
     "ja": "フロー内の疑似要素を含むフレックスアイテム",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
+  "flexItemsGridItemsAbsolutelyPositionedContainerChildren": {
+    "en-US": "Flex items, grid items, and absolutely-positioned flex and grid container children",
+    "ru": "flex-элементы, grid-элементы и абсолютно спозиционированные потомки flex- и grid-контейнеров"
+  },
   "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
     "en-US": "flex items, grid items, and absolutely-positioned boxes"
   },
@@ -979,6 +983,9 @@
     "fr": "Sur les éléments, le résultat du calcul est toujours <code>normal</code>. Sur {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}, si <code>normal</code> est spécifié, cela donnera <code>none</code>. Sinon, pour les valeurs d'URI, on aura l'URI absolue ; pour les valeurs <code>attr()</code>, on aura la chaine résultante ; pour les autres mots-clé, ce sera comme spécifié.",
     "ja": "通常要素で使われると常に <code>normal</code>。{{cssxref(\"::before\")}} 及び {{cssxref(\"::after\")}} では: <code>normal</code> の指定があれば計算値は <code>none</code>。指定がなければ、<ul><li>URI 値は、絶対的 URI となる</li><li><code>attr()</code> 値は、計算値の文字列となる</li><li>その他のキーワードについては指定どおり</li></ul>",
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
+  },
+  "notAnimatable": {
+    "en-US": "Not animatable"
   },
   "number": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",
