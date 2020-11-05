@@ -1,3 +1,13 @@
+## [1.1.5](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.4...v1.1.5) (2020-11-05)
+
+### Bug Fixes
+
+- add notAnimatable animation type to generate script ([bf2fc96](https://github.com/webanimate/mdn-data-animatable/commit/bf2fc96b5bfea72febb154d57b81895b6c83299c))
+
+### Features
+
+- upgrade to mdn-data v2.0.12 ([b9520e5](https://github.com/webanimate/mdn-data-animatable/commit/b9520e5d1a1be5d7cc318f31e1550769f14d0086))
+
 ## [1.1.4](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.3...v1.1.4) (2020-08-04)
 
 ### Performance Improvements
