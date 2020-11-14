@@ -1,3 +1,9 @@
+## [1.1.6](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.5...v1.1.6) (2020-11-14)
+
+### Features
+
+- upgrade to mdn-data v2.0.14 ([25eb632](https://github.com/webanimate/mdn-data-animatable/commit/25eb6322da36e2d43f559a88c977b0d7404dbd1a))
+
 ## [1.1.5](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.4...v1.1.5) (2020-11-05)
 
 ### Bug Fixes
