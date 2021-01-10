@@ -28,12 +28,12 @@
     "up": "yarn upgrade-interactive && ncu -i && yarn"
   },
   "devDependencies": {
-    "eslint": "^7.13.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-json": "^2.1.2",
     "fs-extra": "^9.0.1",
-    "mdn-data": "^2.0.14",
-    "prettier": "^2.1.2"
+    "mdn-data": "^2.0.15",
+    "prettier": "^2.2.1"
   },
   "eslintConfig": {
     "env": {

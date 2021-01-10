@@ -86,7 +86,7 @@
   ":any-link": {
     "syntax": ":any-link",
     "groups": ["Pseudo-classes", "Selectors"],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:any-link"
   },
   ":checked": {
@@ -94,6 +94,12 @@
     "groups": ["Pseudo-classes", "Selectors"],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:checked"
+  },
+  ":current": {
+    "syntax": ":current",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:current"
   },
   ":blank": {
     "syntax": ":blank",
@@ -161,6 +167,12 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen"
   },
+  ":future": {
+    "syntax": ":future",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:future"
+  },
   ":focus": {
     "syntax": ":focus",
     "groups": ["Pseudo-classes", "Selectors"],
@@ -170,13 +182,13 @@
   ":focus-visible": {
     "syntax": ":focus-visible",
     "groups": ["Pseudo-classes", "Selectors"],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-visible"
   },
   ":focus-within": {
     "syntax": ":focus-within",
     "groups": ["Pseudo-classes", "Selectors"],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-within"
   },
   ":has": {
@@ -257,6 +269,12 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
   },
+  ":local-link": {
+    "syntax": ":local-link",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:local-link"
+  },
   ":not": {
     "syntax": ":not( <complex-selector-list> )",
     "groups": ["Pseudo-classes", "Selectors"],
@@ -269,11 +287,23 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
+  ":nth-col": {
+    "syntax": ":nth-col",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-col"
+  },
   ":nth-last-child": {
     "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": ["Pseudo-classes", "Selectors"],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child"
+  },
+  ":nth-last-col": {
+    "syntax": ":nth-last-col",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-col"
   },
   ":nth-last-of-type": {
     "syntax": ":nth-last-of-type( <nth> )",
@@ -311,11 +341,29 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:out-of-range"
   },
+  ":past": {
+    "syntax": ":past",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:past"
+  },
+  ":paused": {
+    "syntax": ":paused",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:paused"
+  },
   ":placeholder-shown": {
     "syntax": ":placeholder-shown",
     "groups": ["Pseudo-classes", "Selectors"],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:placeholder-shown"
+  },
+  ":playing": {
+    "syntax": ":checked",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:playing"
   },
   ":read-only": {
     "syntax": ":read-only",
@@ -358,6 +406,18 @@
     "groups": ["Pseudo-classes", "Selectors"],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:target"
+  },
+  ":target-within": {
+    "syntax": ":target-within",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:target-within"
+  },
+  ":user-invalid": {
+    "syntax": ":user-invalid",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:user-invalid"
   },
   ":valid": {
     "syntax": ":valid",
@@ -573,6 +633,12 @@
     "groups": ["Pseudo-elements", "Selectors"],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
+  },
+  ":picture-in-picture": {
+    "syntax": ":picture-in-picture",
+    "groups": ["Pseudo-classes", "Selectors"],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:picture-in-picture"
   },
   "::placeholder": {
     "syntax": "::placeholder",
