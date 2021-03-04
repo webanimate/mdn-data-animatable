@@ -43,7 +43,7 @@
   "filter-function-list": { "syntax": "[ <filter-function> | <url> ]+" },
   "final-bg-layer": { "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>" },
   "fixed-breadth": { "syntax": "<length-percentage>" },
-  "fixed-repeat": { "syntax": "repeat( [ <positive-integer> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )" },
+  "fixed-repeat": { "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )" },
   "fixed-size": { "syntax": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )" },
   "font-stretch-absolute": { "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded | <percentage>" },
   "font-variant-css21": { "syntax": "[ normal | small-caps ]" },
@@ -121,7 +121,7 @@
   "size": { "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}" },
   "track-breadth": { "syntax": "<length-percentage> | <flex> | min-content | max-content | auto" },
   "track-list": { "syntax": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?" },
-  "track-repeat": { "syntax": "repeat( [ <positive-integer> ] , [ <line-names>? <track-size> ]+ <line-names>? )" },
+  "track-repeat": { "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )" },
   "track-size": { "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( [ <length> | <percentage> ] )" },
   "transform-function": {
     "syntax": "<matrix()> | <translate()> | <translateX()> | <translateY()> | <scale()> | <scaleX()> | <scaleY()> | <rotate()> | <skew()> | <skewX()> | <skewY()> | <matrix3d()> | <translate3d()> | <translateZ()> | <scale3d()> | <scaleZ()> | <rotate3d()> | <rotateX()> | <rotateY()> | <rotateZ()> | <perspective()>"

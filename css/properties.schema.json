@@ -48,6 +48,7 @@
         "lengthsAsPercentages",
         "logicalHeightOfContainingBlock",
         "logicalWidthOfContainingBlock",
+        "logicalHeightOrWidthOfContainingBlock",
         "maxZoomFactor",
         "minZoomFactor",
         "no",
@@ -149,6 +150,7 @@
         "specifiedIntegerOrAbsoluteLength",
         "specifiedValueClipped0To1",
         "specifiedValueNumberClipped0To1",
+        "theKeywordListStyleImageNoneOrComputedValue",
         "translucentValuesRGBAOtherwiseRGB",
         "twoAbsoluteLengthOrPercentages",
         "twoAbsoluteLengths"
