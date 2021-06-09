@@ -60,7 +60,7 @@
   "image": { "syntax": "<url> | <image()> | <image-set()> | <element()> | <paint()> | <cross-fade()> | <gradient>" },
   "image()": { "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )" },
   "image-set()": { "syntax": "image-set( <image-set-option># )" },
-  "image-set-option": { "syntax": "[ <image> | <string> ] <resolution>" },
+  "image-set-option": { "syntax": "[ <image> | <string> ] [ <resolution> || type(<string>) ]" },
   "image-src": { "syntax": "<url> | <string>" },
   "image-tags": { "syntax": "ltr | rtl" },
   "inflexible-breadth": { "syntax": "<length> | <percentage> | min-content | max-content | auto" },
