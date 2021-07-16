@@ -1,4 +1,5 @@
 {
+  "accent-color": { "syntax": "auto | <color>" },
   "all": { "syntax": "initial | inherit | unset | revert" },
   "backdrop-filter": { "syntax": "none | <filter-function-list>" },
   "background": { "syntax": "[ <bg-layer> , ]* <final-bg-layer>" },
