@@ -28,11 +28,11 @@
     "up": "yarn upgrade-interactive && ncu -i && yarn"
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-json": "^3.1.0",
     "fs-extra": "^10.0.0",
-    "mdn-data": "^2.0.20",
+    "mdn-data": "^2.0.21",
     "prettier": "^2.3.2"
   },
   "eslintConfig": {
