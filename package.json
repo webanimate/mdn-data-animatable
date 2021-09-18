@@ -32,8 +32,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-json": "^3.1.0",
     "fs-extra": "^10.0.0",
-    "mdn-data": "^2.0.21",
-    "prettier": "^2.3.2"
+    "mdn-data": "^2.0.22",
+    "prettier": "^2.4.1"
   },
   "eslintConfig": {
     "env": {

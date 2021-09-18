@@ -183,7 +183,7 @@
   "vertical-align": { "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>" },
   "visibility": { "syntax": "visible | hidden | collapse" },
   "width": { "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)" },
-  "word-spacing": { "syntax": "normal | <length-percentage>" },
+  "word-spacing": { "syntax": "normal | <length>" },
   "z-index": { "syntax": "auto | <integer>" },
   "zoom": { "syntax": "normal | reset | <number> | <percentage>" },
   "border-top-style": { "syntax": "<line-style>" },
