@@ -1,3 +1,9 @@
+## [1.1.15](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.14...v1.1.15) (2021-12-18)
+
+### Features
+
+- upgrade mdn-data to v2.0.24, eslint to v8 ([0389ccc](https://github.com/webanimate/mdn-data-animatable/commit/0389ccc82a0abab8b396bf7361964461ff5d71ad))
+
 ## [1.1.14](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.13...v1.1.14) (2021-09-18)
 
 ### Features
