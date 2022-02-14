@@ -1,4 +1,8 @@
 {
+  "cap": {
+    "groups": ["CSS Units", "CSS Lengths"],
+    "status": "standard"
+  },
   "ch": {
     "groups": ["CSS Units", "CSS Lengths"],
     "status": "standard"
@@ -41,6 +45,10 @@
   },
   "Hz": {
     "groups": ["CSS Units", "CSS Frequencies"],
+    "status": "standard"
+  },
+  "ic": {
+    "groups": ["CSS Units", "CSS Lengths"],
     "status": "standard"
   },
   "in": {
