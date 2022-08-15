@@ -1,6 +1,6 @@
 {
   "accent-color": { "syntax": "auto | <color>" },
-  "all": { "syntax": "initial | inherit | unset | revert" },
+  "all": { "syntax": "initial | inherit | unset | revert | revert-layer" },
   "backdrop-filter": { "syntax": "none | <filter-function-list>" },
   "background": { "syntax": "[ <bg-layer> , ]* <final-bg-layer>" },
   "background-color": { "syntax": "<color>" },
