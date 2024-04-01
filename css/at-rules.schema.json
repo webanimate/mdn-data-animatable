@@ -84,7 +84,7 @@
               "enum": ["standard", "nonstandard", "experimental"]
             }
           },
-          "required": ["syntax", "media", "initial", "percentages", "computed", "order", "status"]
+          "required": ["syntax", "initial", "percentages", "computed", "order", "status"]
         }
       },
       "status": {

@@ -28,12 +28,12 @@
     "up": "yarn upgrade-interactive && ncu -i && yarn"
   },
   "devDependencies": {
-    "eslint": "^8.22.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-json": "^3.1.0",
-    "fs-extra": "^10.1.0",
-    "mdn-data": "^2.0.28",
-    "prettier": "^2.7.1"
+    "fs-extra": "^11.2.0",
+    "mdn-data": "^2.4.2",
+    "prettier": "^3.2.5"
   },
   "eslintConfig": {
     "env": {
@@ -66,5 +66,6 @@
     "animatable",
     "properties",
     "css"
-  ]
+  ],
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
