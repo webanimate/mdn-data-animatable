@@ -176,7 +176,6 @@
   "scroll-padding-top": { "syntax": "auto | <length-percentage>" },
   "scroll-snap-coordinate": { "syntax": "none | <position>#" },
   "scroll-snap-destination": { "syntax": "<position>" },
-  "scroll-timeline": { "syntax": "<'scroll-timeline-name'> || <'scroll-timeline-axis'>" },
   "shape-image-threshold": { "syntax": "<alpha-value>" },
   "shape-margin": { "syntax": "<length-percentage>" },
   "shape-outside": { "syntax": "none | [ <shape-box> || <basic-shape> ] | <image>" },

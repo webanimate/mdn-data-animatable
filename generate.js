@@ -48,6 +48,8 @@ const processFiles = () => {
     }
   })
 
+  delete mdnAnimatableProperties['scroll-timeline']
+
   const nonAnimatablePropertiesArray = []
   Object.keys(nonAnimatableProperties).forEach((key) => {
     mdnAnimatableProperties[key] = { syntax: mdnProperties[key]['syntax'] }
