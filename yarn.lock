@@ -527,10 +527,10 @@ lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-mdn-data@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.4.2.tgz#0120cb4818913a0117dfa26a0c21dfa818c36948"
-  integrity sha512-idPW/pIOG+kFB36OahZHGCXZaaKIp5aYbbgRS/NACMbCpSJTTbW+T9XmMLMzvs27vnRhUO1xrd++gAGv7lm1gA==
+mdn-data@2.0.31:
+  version "2.0.31"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.31.tgz#dfb6cbdd1b0326aa231179d054b58a83212c2202"
+  integrity sha512-BoMtKzFjk2+b5QDi1QtS4XBZtwd1WIBVQSVe9Q6iIgQP+m6KhlbukWM8bp7rYgWXOXzp/cBqgHWU7az4hGV1WA==
 
 minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
   version "3.1.2"
