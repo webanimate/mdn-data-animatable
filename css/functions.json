@@ -184,18 +184,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax"
   },
-  "oklab()": {
-    "syntax": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
-    "groups": ["CSS Color"],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklab"
-  },
-  "oklch()": {
-    "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
-    "groups": ["CSS Color"],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklch"
-  },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )",
     "groups": ["Filter Effects", "CSS Color"],
@@ -231,12 +219,6 @@
     "groups": ["CSS Backgrounds and Borders", "CSS Color"],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient"
-  },
-  "ray()": {
-    "syntax": "ray( <angle> && <ray-size>? && contain? && [at <position>]? )",
-    "groups": ["CSS Motion Path"],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
   },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
@@ -328,12 +310,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ"
   },
-  "scroll()": {
-    "syntax": "scroll([<axis> || <scroller>]?)",
-    "groups": ["CSS Animations"],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
-  },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )",
     "groups": ["CSS Transforms"],
@@ -408,11 +384,5 @@
     "groups": ["CSS Miscellaneous"],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var"
-  },
-  "view()": {
-    "syntax": "view([<axis> || <'view-timeline-inset'>]?)",
-    "groups": ["CSS Animations"],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view"
   }
 }
