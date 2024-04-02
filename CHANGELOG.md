@@ -1,3 +1,9 @@
+## [1.1.22](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.21...v1.1.22) (2024-04-02)
+
+### Bug Fixes
+
+- remove scroll-timeline ([c0968d3](https://github.com/webanimate/mdn-data-animatable/commit/c0968d3d90919e6b012162481929feb1fab92531))
+
 ## [1.1.21](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.20...v1.1.21) (2024-04-02)
 
 ### Features
