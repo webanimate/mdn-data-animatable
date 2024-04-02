@@ -1,3 +1,10 @@
+## [1.1.21](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.20...v1.1.21) (2024-04-02)
+
+### Features
+
+- downgrade mdn-data to v2.0.31 ([d21f269](https://github.com/webanimate/mdn-data-animatable/commit/d21f269771a6b4a620b7a6f346a055cb1ddcec91))
+- downgrade mdn-data to v2.0.31 ([d7edf63](https://github.com/webanimate/mdn-data-animatable/commit/d7edf63e6003c9fc98ffda582ff85e9d8704e4b1))
+
 ## [1.1.20](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.19...v1.1.20) (2024-04-01)
 
 ### Features
