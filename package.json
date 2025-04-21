@@ -31,9 +31,9 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-json": "^3.1.0",
-    "fs-extra": "^11.2.0",
+    "fs-extra": "^11.3.0",
     "mdn-data": "2.0.31",
-    "prettier": "^3.2.5"
+    "prettier": "^3.5.3"
   },
   "eslintConfig": {
     "env": {
@@ -67,5 +67,5 @@
     "properties",
     "css"
   ],
-  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  "packageManager": "yarn@1.22.22"
 }
