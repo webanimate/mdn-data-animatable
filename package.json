@@ -28,31 +28,15 @@
     "up": "yarn upgrade-interactive && ncu -i && yarn"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-json": "^3.1.0",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.25.0",
+    "eslint": "^9.25.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-json": "^4.0.1",
     "fs-extra": "^11.3.0",
+    "globals": "^16.0.0",
     "mdn-data": "2.0.31",
     "prettier": "^3.5.3"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es6": true,
-      "node": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 11,
-      "sourceType": "module"
-    },
-    "plugins": [
-      "json"
-    ],
-    "extends": [
-      "eslint:recommended",
-      "plugin:json/recommended",
-      "prettier"
-    ]
   },
   "prettier": {
     "printWidth": 280,
