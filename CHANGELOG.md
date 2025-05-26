@@ -1,3 +1,5 @@
+## [1.1.23](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.22...v1.1.23) (2025-05-26)
+
 ## [1.1.22](https://github.com/webanimate/mdn-data-animatable/compare/v1.1.21...v1.1.22) (2024-04-02)
 
 ### Bug Fixes
